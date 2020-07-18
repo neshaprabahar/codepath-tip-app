@@ -171,9 +171,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tip Helper" id="bg0-Rq-pJe"/>
                     <connections>
+                        <outlet property="dollarImage" destination="Xok-MW-Zi4" id="Qpk-4m-wHB"/>
                         <outlet property="groupTextField" destination="gNB-YY-Zno" id="Pab-Ow-GN4"/>
                         <outlet property="groupTotal" destination="PH2-Ha-oF3" id="ym4-cp-s9f"/>
-                        <outlet property="lilDollaImage" destination="Xok-MW-Zi4" id="wsP-aP-XsL"/>
                         <outlet property="newBillField" destination="M7C-oY-NWV" id="GzB-lA-6Te"/>
                         <outlet property="otherTip" destination="AwA-LH-zOQ" id="jyf-es-Pmw"/>
                         <outlet property="tipControl" destination="LVu-g5-jPq" id="G0U-pP-NJG"/>

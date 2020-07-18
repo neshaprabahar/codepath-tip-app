@@ -29,6 +29,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var groupTotal: UILabel!
     
+    @IBOutlet weak var dollarImage: UIImageView!
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         newBillField.becomeFirstResponder()
@@ -58,6 +60,12 @@ class ViewController: UIViewController {
         
         tipLabel.text = String(format: "$%0.2f", groupTot)
         groupTotal.text = String(format: "$%0.2f", total)
+        
+        UIView.animate(withDuration: 1.0, delay: 0.0,
+        options: [],
+        animations: { () -> Void in
+           self.dollarImage.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
+        }, completion: nil)
 
     }
     
