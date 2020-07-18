@@ -69,6 +69,22 @@ class ViewController: UIViewController {
 
     }
     
+    override func encodeRestorableState(with coder: NSCoder) {
+        super.encodeRestorableState(with: coder)
+        
+        coder.encode(newBillField?.text, forKey: "billAmount")
+        
+    }
+    
+    override func decodeRestorableState(with coder: NSCoder) {
+        super.decodeRestorableState(with: coder)
+
+        //if let value = coder.decodeObject(forKey: "billAmount") as? String {
+        newBillField?.text = coder.decodeObject(forKey: "billAmount") as? String
+        newBillField?.becomeFirstResponder()
+        //}
+    }
+    
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
     }
