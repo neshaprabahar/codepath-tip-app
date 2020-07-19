@@ -4,7 +4,7 @@
 
 Submitted by: **Nesha Prabahar**
 
-Time spent: **6** hours spent in total
+Time spent: **12** hours spent in total
 
 ## User Stories
 
