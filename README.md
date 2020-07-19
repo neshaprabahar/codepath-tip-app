@@ -24,6 +24,7 @@ The following **additional** features are implemented:
 - [x] Added Pictures to denote group and custom tip percentages
 - [x] Made Labels Autoshrink when number increases
 - [x] Used complimetary colours from a colour palette
+- [x] Used number pad for group text field so number is always an integer
 - [x] Added Design to the Navigation Controller
 - [x] Created special highlight for selected segement in Segment Control
 - [x] Created a Split-tab Functionality
