@@ -3,7 +3,7 @@
 //  TipHelper
 //
 //  Created by Nesha Prabahar on 15/07/20.
-//  Copyright © 2020 Codepath. All rights reserved.
+//  Copyright © 2020 Nesha Prabahar. All rights reserved.
 //
 
 import UIKit
