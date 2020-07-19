@@ -4,24 +4,33 @@
 
 Submitted by: **Nesha Prabahar**
 
-Time spent: **6** hours spent in total
+Time spent: **12** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
-* [ ] UI animations
+* [x] UI animations - Made the dollar sign increase in size once the tip had been calculated
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Added Pictures to denote group and custom tip percentages
+- [x] Made Labels Autoshrink when number increases
+- [x] Used complimetary colours from a colour palette
+- [x] Added Design to the Navigation Controller
+- [x] Created special highlight for selected segement in Segment Control
+- [x] Created a Split-tab Functionality
+- [x] Created custom tip percentage functionality 
+- [x] Showed total for entire group and individual tabs
+- [x] Default functionality in the case text fields are empty/ number of people entered is 0
+
 
 ## Video Walkthrough 
 
@@ -34,6 +43,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+The code I currently have on the repo has the logic to save state, but I just wasn't able to get it to work. There is obviously a mistake, but I have exhausted every resource I know I had to try and fix it. I ran into problems with the Settings page's back button not working, so I implemented a custom option instead!
 
 ## License
 
