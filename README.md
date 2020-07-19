@@ -36,13 +36,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/r7r9qeB5hq.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [RecordIt].
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+I used RecordIt for the gif because licecap was causing issues. 
 
 The code I currently have on the repo has the logic to save state, but I just wasn't able to get it to work. There is obviously a mistake, but I have exhausted every resource I know I had to try and fix it. I ran into problems with the Settings page's back button not working, so I implemented a custom option instead!
 
